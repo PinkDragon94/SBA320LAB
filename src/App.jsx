@@ -1,11 +1,13 @@
-import StockChart from "./pages/StockChart";
+// App.jsx
+import React from 'react';
+import StockTable from './pages/StockTable';
 
 const App = () => {
-  return (
-    <>
-      <StockChart />
-    </>
-  );
+    return (
+        <>
+            <StockTable />
+        </>
+    );
 };
 
 export default App;
